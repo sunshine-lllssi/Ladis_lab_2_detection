@@ -2,7 +2,8 @@
 Был предоставлен датасет для детекции посетителей и сотрудников магазина. 
 Yolo_dataset полностью подготовлен и готов к обучению модели.
 
-# Внутренняя структура:
+## Внутренняя структура:
+```text
 ├── data.yaml
 ├── sample_sub.csv
 ├── yolo_dataset
@@ -22,8 +23,9 @@ Yolo_dataset полностью подготовлен и готов к обуч
 |          ├── 1.1_00-00-00-000.jpg
 │          ├── 1.1_00-00-12-500.jpg
 │          └── ...
+```
 
-# data.yaml
+## data.yaml
 names:
   0: customer (посетители магазина)
   1: staff (сотрудники в форме)
@@ -33,9 +35,9 @@ path: /kaggle/input/dl-lab-2-stuff-detection/yolo_dataset/yolo_dataset
 train: train/images
 val: train/
 
-# После выполения задание в датасете появидись новые данные
+## После выполения задание в датасете появидись новые данные
 https://storage.yandexcloud.net/shelfsense/data-science/storeview/datasets/add_data.zip
 
-# Наш датасет, который мы использовали в одном из представленных кодов:
-
+## Наш датасет, который мы использовали в одном из представленных кодов (датасет с добавлением новых данных):
+https://drive.google.com/drive/folders/1uDynEIAYhP0L3fmI7LJNJB8a4a19rbK2?usp=drive_link
 
