@@ -35,7 +35,7 @@ path: /kaggle/input/dl-lab-2-stuff-detection/yolo_dataset/yolo_dataset
 train: train/images
 val: train/
 
-## После выполения дополнительного задание в датасете появидись новые данные
+## После выполения дополнительного задания в датасете появидись новые данные
 https://storage.yandexcloud.net/shelfsense/data-science/storeview/datasets/add_data.zip
 
 ## Наш датасет, который мы использовали в одном из представленных кодов (датасет с добавлением новых данных):
