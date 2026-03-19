@@ -25,3 +25,4 @@
 
 ## Визуальная демонстрация
 
+![Color Ablation](https://raw.githubusercontent.com/sunshine-lllssi/Ladis_lab_2_detection/main/Снимок%20экрана%202026-03-19%20160103.png)
