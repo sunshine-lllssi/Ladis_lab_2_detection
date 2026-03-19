@@ -17,7 +17,7 @@ yolo11m.pt
 
 2) Дообучение  — мы взяли лучшую модель с первого этапа и продолжили её обучение с меньшей скоростью обучения (learning rate = 0.0005), меньшим количесвом эпох (epochs=45), меньшим размером(imgsz=720), добавили warmup_epochs=0, patience=10, copy_paste=0.25. 
 
-# Лучшие модели по метрикам (best) и последние сохраненные модели (last)
+# Веса моделей: лучшие по метрикам (best.pt) и финальные (last.pt)
 
 https://drive.google.com/drive/folders/1gueVToCLh184KUc5qmrnMGKSaK5iwDsB
 
