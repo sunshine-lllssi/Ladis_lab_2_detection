@@ -39,5 +39,5 @@ val: train/
 https://storage.yandexcloud.net/shelfsense/data-science/storeview/datasets/add_data.zip
 
 ## Наш датасет, который мы использовали в одном из представленных кодов (датасет с добавлением новых данных):
-https://drive.google.com/drive/folders/1uDynEIAYhP0L3fmI7LJNJB8a4a19rbK2?usp=drive_link
+[https://drive.google.com/drive/folders/1uDynEIAYhP0L3fmI7LJNJB8a4a19rbK2?usp=drive_link](https://drive.google.com/file/d/1Sx-71H-10hgrtD_UigyNygpBwwidni8M/view?usp=sharing)
 
