@@ -2,34 +2,26 @@
 
 ## Результаты 
 
-public: 0.66949
+public: 0.68072
 
-private: 0.64060
+private: 0.63885
 
 # Модель
 
-yolo11m.pt
+yolo11x.pt
 
 # Обучение
 
-Мы провели два этапа обучения модели:
-1) Основное обучение — модель обучалась с нуля на нашем наборе данных. Результаты этого этапа сохранялись в папку lab2. 
-
-2) Дообучение  — мы взяли лучшую модель с первого этапа и продолжили её обучение с меньшей скоростью обучения (learning rate = 0.0005), меньшим количесвом эпох (epochs=45), меньшим размером(imgsz=720), добавили warmup_epochs=0, patience=10, copy_paste=0.25. 
+Обучение проводилось на первоначальном датасете. С seed = 9999 и на 120 эпохах
 
 # Веса моделей: лучшие по метрикам (best.pt) и финальные (last.pt)
 
-https://drive.google.com/drive/folders/1gueVToCLh184KUc5qmrnMGKSaK5iwDsB
+[https://drive.google.com/drive/folders/1gueVToCLh184KUc5qmrnMGKSaK5iwDsB](https://drive.google.com/file/d/1WWdQBl3DHWMo3y7lRatUXUOCg5OA5ZqF/view?usp=sharing)
 
-# Таблицы с метриками по эпохам
 
-https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_public/results%20(7).csv
+# График обучения 
 
-https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_public/results%20(6).csv
+Обучение - [https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_public/results%20(8).png](https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_private/m7LUSkOw3ZzBLX-z_j6uxCPa0dcJPuz35H_AFaUiDDgyPIqflDCWchv2E43snQ-443tH_6lFlVKdnw5I8hZ6B2LE.jpg)
 
-# Графики обучения 
 
-Обучение - https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_public/results%20(8).png
-
-Дообучение - https://github.com/sunshine-lllssi/Ladis_lab_2_detection/blob/main/best_option_on_public/results%20(7).png
 
